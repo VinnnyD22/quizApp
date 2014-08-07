@@ -5,7 +5,7 @@
 	<title>Quiz App</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="app.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 </head>
 <body>
 	<section id = "introPage">
@@ -25,6 +25,7 @@
 		<button class="answer">Snow</button>
 		<button class="answer">Ghost</button>
 		<button class="answer">Shaggy Dog</button>
+		<button class="submit" id="s1">Submit</button>
 	</section>
 	<section id = "quest2">
 		<img class="questPic" src="Pictures/Lannister.png">
@@ -34,6 +35,7 @@
 		<button class="answer">Cersei</button>
 		<button class="answer">Tywin</button>
 		<button class="answer">Joffrey</button>
+		<button class="submit" id="s2">Submit</button>
 	</section>
 	<section id = "quest3">
 		<img class="questPic" src="Pictures/Baratheon.png">
@@ -43,6 +45,7 @@
 		<button class="answer">The Mad King</button>
 		<button class="answer">The Drunk King</button>
 		<button class="answer">The Noble King</button>
+		<button class="submit" id="s3">Submit</button>
 	</section>
 	<section id = "quest4">
 		<img class="questPic" src="Pictures/Targaryen.png">
@@ -52,15 +55,17 @@
 		<button class="answer">Drogo</button>
 		<button class="answer">Quotho</button>
 		<button class="answer">Viserys</button>
+		<button class="submit" id="s4">Submit</button>
 	</section>
 	<section id = "quest5">
 		<img class="questPic" src="Pictures/Tyrell.png">
 		<h2>Q5: Who does Ser Loras Tyrell defeat in the joust to win the tournament that was held for Ned Stark after he became Hand of the King?</h2>
-		<button class="answer">Sandor "The Hound" Clegan</button>
+		<button class="answer">Sandor Clegan</button>
 		<button class="answer">Jaime Lannister</button>
-		<button class="answer">Gregor "The Mountain" Clegan</button>
+		<button class="answer">Gregor Clegan</button>
 		<button class="answer">Ned Stark</button>
 		<button class="answer">Robert Baratheon</button>
+		<button class="submit" id="s5">Submit</button>
 	</section>
 	</section>
 	<section id = "quest6">
@@ -71,6 +76,7 @@
 		<button class="answer">Luwin</button>
 		<button class="answer">Rob</button>
 		<button class="answer">Eddard</button>
+		<button class="submit" id="s6">Submit</button>
 	</section>
 	<section id = "quest7">
 		<img class="questPic" src="Pictures/Lannister.png">
@@ -80,6 +86,7 @@
 		<button class="answer">Bear</button>
 		<button class="answer">Dragon</button>
 		<button class="answer">Direwolf</button>
+		<button class="submit" id="s7">Submit</button>
 	</section>
 	<section id = "quest8">
 		<img class="questPic" src="Pictures/Targaryen.png">
@@ -89,15 +96,17 @@
 		<button class="answer">Grey Beard</button>
 		<button class="answer">Night Owl</button>
 		<button class="answer">Jorah</button>
+		<button class="submit" id="s8">Submit</button>
 	</section>
 	<section id = "quest9">
 		<img class="questPic" src="Pictures/Baratheon.png">
-		<h2>Q9: Who attacked Kings Landing to over throw King Joffrey?</h2>
+		<h2>Q9: Who attacked Kings Landing to try over throw King Joffrey?</h2>
 		<button class="answer">Stannis Baratheon</button>
 		<button class="answer">Renly Baratheon</button>
 		<button class="answer">Robert Baratheon</button>
 		<button class="answer">Ned Stark</button>
 		<button class="answer">Tywin Lannister</button>
+		<button class="submit" id="s9">Submit</button>
 	</section>
 		<section id = "quest10">
 		<img class="questPic" src="Pictures/Tyrell.png">
@@ -107,6 +116,13 @@
 		<button class="answer">The Queen of Thorns</button>
 		<button class="answer">The Queen of Whispers</button>
 		<button class="answer">The Queen of Flowers</button>
+		<button class="submit" id="s10">Submit</button>
+	</section>
+	<section id="score">
+		<img id="scoreImg" src="Pictures/allHouseSigils.png">
+		<div id = "statement"></div>
+		<div id="finalScore"></div>
+		<button class="submit" id="playAgain">Play Agian</button>
 	</section>
 	
 </body>
